@@ -40,30 +40,99 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
-Describe the purpose of your survey:
+**Describe the purpose of your survey:**
 ```
-write your answer here...
-```
+The survey's **purpose** is to identify key drivers of the high turnover among entry- and lower-level employees across departments. Also, its purpose is to collect actionable suggestions that HR can implement or provide to management teams to improve employee satisfaction and retention. Results will inform short- and medium-term retention policies (compensation, professional and personal development, management, workload, training, remote/hybrid policies).
 
-Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
+**Note:** I would not wish to do this in real-life while I would be working in HR. However, the topic has been important to me in the past year or two. I believe that simply using Likert-scale engagement surveys with options strictly only saying "Disagree/Agree/etc.", as well as presenting them as how teams actually feel, is unconstructive and unethical. This is why the real purpose of the survey is to come up with something which would address the actual problem, and would help the management teams avoid being trapped in magical thinking caused by biased survey responses. This will make the survey use negative language at times, sadly. I understand that while working in HR/Management for a big company, this scenario may be unrealistic. 
+I would rather focus on something cheerful like music preferences survey in topic 3, but I believe I had to leave my mark here. Sorry about the wall of text, Learning Staff ._.
 ```
 
-Your 5-10 question survey:
+**Describe your target population, sampling frame, sampling units, and observational units:**
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+Target population:
+All current, recently departed (within the last 1 year), employees who held entry-level or lower-level positions across the company. We may want to split the latter into 2 groups later: those who left more than 6 months ago, and those who left less than 6 months ago (if we believe that turnover increased less than a year ago). We may need this to see trends, and to comfirm when sentiment showed changes.
+
+Sampling frame:
+The company’s HR/payroll database (current employee roster) plus exit lists for employees who left in the previous 12 months (with contact details for reachable ex-employees). That database should include department and ideally reason for leave as variables.
+
+Sampling units:
+Individual employees (each person listed in the HR / exit records is a sampling unit).
+
+Observational units:
+Employees who complete the survey.
+
+**Note:** 
+Survey will be focused on accuracy first, before precision. This is because of the inherent bias and untruthfullness that these surveys in a workplace have. To achieve this:
+1. We may use list experiment. It can be applied to some "select ones that apply" questions (e.g. to questions 6 and 7). Those questions/answers would need to be slightly reframed first, though.
+2. Focus on proving confidentiality: use third-party hosting/facilitation, stressing that there won't be a breakdown into smaller teams, show info about survey design. Department breakdown should be fine as this is a big company.
+3. Use forced-choice questions.
+4. Include "Prefer not to answer" options.
+5. Stress the anonymity of the survey: no names, IP addresses, personalized questions. This may be a problem later when we asked how long an employee worked for the company, albeit unlikely due to population size.
+6. While we will use some Likert-scale questions, they may be presented in numerical scale, with visualized heat graphs, instead of saying "agree" or "disagree" everywhere. It will show lower engagement levels, but will be more accurate. We may also potentally use a 10-grade scale, instead of a 1-5 one. Survey will have 1-5 scale by default for now.
+```
+
+**Your 5-10 question survey:**
+```
+1. Screening Question: Are you (select one)
+    a) Currently employed at [Company] in an entry- or lower-level role
+    b) Left [Company name] within the last 12 months from an entry- or lower-level role
+    c) Other (ineligible — end survey)
+
+2. Which department (business unit) are/were you in? - dropdown list (including Other, potentially without specifying)
+
+3. How long have you been (or had you been) employed by [Company] in that role?
+    a) Less than 6 months
+    b) 6 to 12 months
+    c) 1 to 2 years
+    d) 2 to 5 years
+    e) 5+ years
+
+4. Overall, how satisfied were you with your job at [Company name] in the past 6 months?
+    1 = Very dissatisfied, ..., 5 = Very satisfied
+
+5. Do you believe that your satisfaction with your job significantly decreased in the past 6 months?
+    a) Yes
+    b) No
+
+
+6. Which of the following best describes the single biggest reason that influenced your decision to leave (or to think about leaving) the company?
+    [Select one]
+    a) Compensation/benefits
+    b) Lack of career growth / promotion opportunities
+    c) Poor management / supervision
+    d) Excessive workload / poor work-life balance
+    e) Personal reasons (relocation, family, health)
+    f) Lack of training or skill development
+    g) Workplace culture / team environment
+    h) Other (please specify) — [open text]
+
+7. Which changes would most increase your desire to stay? 
+    [Choose up to 2]
+    a) Higher salary / better benefits
+    b) Clearer promotion/career paths
+    c) Manager training / improved supervision
+    d) Reduced workload / improved work-life balance
+    e) More flexible hours / remote work options
+    f) Better onboarding / more training & mentorship
+    g) More recognition / non-monetary rewards
+    h) Other (specify)
+
+
+8. On a 0–10 scale, where 0 = ‘I would accept any reasonable external offer tomorrow’ and 10 = ‘I would never consider leaving under any reasonable offer,’ where would you place yourself?
+    1 ... 10
+
+9. Please read the following statements. How many of them apply to you personally?
+    [] I have discussed my workload with my manager recently
+    [] I have taken or thought of taking a sick or personal day due to stress recently
+    [] I have felt that I have been unfairly targeted recently
+    [] I have been actively applying for jobs outside this company in the last three months
+Note: "recently" is used to avoid potential targeting at the workplace
+
+10. (Optional) Please share any other suggestions or comments about what would make you (or would have made you) stay at [Company name]:
+   [ ... ]
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +140,41 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+    The sample is based on a stratified design employing probability sampling. Rejective sampling used due to the potential difficulties in reaching volunteers as a result of their prevalence in the population.
+2. Sample size
+    As of 2019, the GSS targets a sample size of approximately 20,000 respondents (was not confirmed for Cycle 33). Link:
+    https://www150.statcan.gc.ca/n1/pub/89f0115x/89f0115x2019001-eng.htm
+3. Target population
+    The target population for the GSS Giving, volunteering and participating includes all persons 15 years of age and older living in Nova Scotia, Québec, and Ontario. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame
+    This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established). This sampling frame is used to obtain a better coverage of households with a telephone number.
+5. Survey mode(s)
+    Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing). No proxy reporting is allowed. The respondents has the choice between French and English.
+6. Timeline
+    Reference period: Past 12 months preceding interview date.
+    Collection period: Every 5 years
+7. Response rate
+    Did not find / was not available for this particular survey.
+8. Weights
+    Did not find / was not available/used for this particular survey. However, in later surveys it says that "the main method used to reduce non-response bias involved a series of adjustments to the survey weights to account for nonresponse as much as possible. Information was extracted from the frame and used to model and adjust for non-response.":
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+9. Data processing
+    In order to prevent any data disclosure, confidentiality analysis is done using the Statistics Canada Generalized Disclosure Control System (G-Confid).
+    Data collected directly from respondents via CATI / e-form.
+10. Cleaning, imputation, etc
+    Not applicable at this survey stage.
+11. Sources of error
+    Rejective sampling, limited provinces (only 3), exclusion of respondents without access to phone / Internet.
+12. Limitations, known biases, etc
+    In addition to the above sources of error, I also could not find some data available as stated in some answers.
+13. Link to documentation and any additional sources used 
+    1) General Social Survey - Giving, Volunteering and Participating (GSS GVP) (used in all answers unless specified otherwise)
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=425224#a1
+    2) General Social Survey: An Overview, 2019
+    https://www150.statcan.gc.ca/n1/pub/89f0115x/89f0115x2019001-eng.htm
+    3) Survey on Giving, Volunteering and Participating (SGVP) - Detailed information for 2023
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
 ```
 
 ## Rubric
